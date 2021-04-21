@@ -59,6 +59,9 @@ section::after
     align-items: center;
     /* flex-wrap: wrap; */
     margin: 16px 0;
+    gap: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .container .card

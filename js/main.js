@@ -121,3 +121,17 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
+
+
+// var i = 0;
+// var txt = 'We are WINCODE!';
+// var speed = 50;
+
+// function typeWriter() {
+//   if (i < txt.length) {
+//     document.getElementById("header-text").innerHTML += txt.charAt(i);
+//     i++;
+//     setTimeout(typeWriter, speed);
+//   }
+// }
+// typewriter()

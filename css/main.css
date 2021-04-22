@@ -674,6 +674,7 @@ a:hover,a:focus {
     .main-header h1{ font-size:45px;
         text-align: center;
     }
+    
 }
 @media(max-width:859px){
     body{
@@ -699,6 +700,9 @@ a:hover,a:focus {
     .main-header h1{
         text-align: center;
     }
+    .skills{
+        display: none;
+    }
 }
 @media(max-width:580px){
     body{
@@ -711,6 +715,9 @@ a:hover,a:focus {
     .main-header h1{
         text-align: center;
         font-size: 28px;
+    }
+    .skills{
+        display: none;
     }
 }
 @media(max-width:502px){
@@ -725,6 +732,9 @@ a:hover,a:focus {
         text-align: center;
         font-size: 24px;
     }
+    .skills{
+        display: none;
+    }
 }
 @media(max-width:439px){
     .project{
@@ -738,6 +748,9 @@ a:hover,a:focus {
         justify-content: centre;
         overflow-x:hidden ;
     }
+    .skills{
+        display: none;
+    }
 }
 @media(max-width:342px){
     body{
@@ -750,6 +763,9 @@ a:hover,a:focus {
     .main-header h1{
         text-align: center;
         font-size:18px;
+    }
+    .skills{
+        display: none;
     }
 }
 

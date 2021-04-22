@@ -508,7 +508,7 @@ a:hover,a:focus {
     font-size: 13px;
 }
 
-@media screen and (max-width:1200px){
+/* @media screen and (max-width:1200px){
     .inner-container{
         padding: 80px;
     }
@@ -531,43 +531,7 @@ a:hover,a:focus {
     .inner-container{
         padding: 60px;
     }
-}
-
-@media(max-width:1200px){
-    .project{
-        margin-top: 70%;
-    }
-}
-@media(max-width:859px){
-    .project{
-        margin-top: 90%;
-    }
-}
-@media(max-width:694px){
-    .project{
-        margin-top: 260%;
-    }
-}
-@media(max-width:580px){
-    .project{
-        margin-top: 300%;
-    }
-}
-@media(max-width:502px){
-    .project{
-        margin-top: 340%;
-    }
-}
-@media(max-width:439px){
-    .project{
-        margin-top: 450%;
-    }
-}
-@media(max-width:342px){
-    .project{
-        margin-top: 600;
-    }
-}
+} */
 
 /* Achivements */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
@@ -698,5 +662,95 @@ a:hover,a:focus {
 } */
 
 
+
+@media(max-width:1200px){
+    .project{
+        margin-top: 70%;
+    }
+    body{
+        justify-content: center;
+        overflow-x:hidden ;
+    }
+    .main-header h1{ font-size:45px;
+        text-align: center;
+    }
+}
+@media(max-width:859px){
+    body{
+        justify-content: centre;
+        overflow-x:hidden ;
+    }
+    .project{
+        margin-top: 90%;
+    }
+    .main-header h1{
+        text-align: center;
+    }
+    
+}
+@media(max-width:694px){
+    body{
+        justify-content: centre;
+        overflow-x:hidden ;
+    }
+    .project{
+        margin-top: 260%;
+    }
+    .main-header h1{
+        text-align: center;
+    }
+}
+@media(max-width:580px){
+    body{
+        justify-content: centre;
+        overflow-x:hidden ;
+    }
+    .project{
+        margin-top: 300%;
+    }
+    .main-header h1{
+        text-align: center;
+        font-size: 28px;
+    }
+}
+@media(max-width:502px){
+    body{
+        justify-content: centre;
+        overflow-x:hidden ;
+    }
+    .project{
+        margin-top: 340%;
+    }
+    .main-header h1{
+        text-align: center;
+        font-size: 24px;
+    }
+}
+@media(max-width:439px){
+    .project{
+        margin-top: 450%;
+    }
+    .main-header h1{
+        text-align: center;
+        font-size: 22px;
+    }
+    body{
+        justify-content: centre;
+        overflow-x:hidden ;
+    }
+}
+@media(max-width:342px){
+    body{
+        justify-content: centre;
+        overflow-x:hidden ;
+    }
+    .project{
+        margin-top: 600;
+    }
+    .main-header h1{
+        text-align: center;
+        font-size:18px;
+    }
+}
 
 

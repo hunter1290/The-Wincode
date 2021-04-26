@@ -15,7 +15,7 @@ body
     align-items: center;
     flex-wrap: wrap;
     background: black;
-    
+    overflow-x:hidden;
     min-height: 100vh;
    
     
